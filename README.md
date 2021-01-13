@@ -16,6 +16,14 @@ This repository is setup with a simple skeleton app. It includes:
 
 You are not at all required or expected to use this skeleton if you'd rather use something else. The skeleton is provided to you purely as a convenience.
 
+If you do decide to use this skeleton, you can set it up with:
+
+```
+npm i
+npm run build
+npm start
+```
+
 TODO: provisioning tokens, how do we do it?
 
 ## Possible features
