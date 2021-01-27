@@ -1,12 +1,12 @@
 ## High-level objective
 
-Design and build an issue tracker using GitHub public APIs. The assignment is scoped to 2-4 hours. Please let us know how much time you ended up spending once completed.
+Build a feature that allows you to group GitHub issues into a collection.
 
-Below are some suggested features for the app. Getting through more of these features is better, but not at the cost of code quality or user experience. If you have other ideas for how to improve the app, feel free to try to impress us!
+An example of how this feature might be used: Let's say you're working on a project that has many open issues, and you'd like to plan some future feature work. There are a number of open issues related to your feature, and you'd like to organize those so you can easily get a view of the work.
 
-TODO: add a more opinionated feature suggestion
+Feel free to put your own spin on this. The instructions are purposefully open ended. Perhaps your feature allows for filtering finished and unfinished work, or allows the user to place the issues in a collection in a particular order.
 
-## Setup instructions
+## Setup
 
 This repository is setup with a simple skeleton app. It includes:
 
@@ -24,9 +24,11 @@ npm run build
 npm start
 ```
 
-TODO: provisioning tokens, how do we do it?
+### Provisioning a token
 
-## Possible features
+You will need an API token to call the GitHub API. You can provision one by following [these instructions](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+
+## Instructions
 
 - List of issues for a single repo
 - View the details of an issue
@@ -36,7 +38,17 @@ TODO: provisioning tokens, how do we do it?
 
 ## Expectations
 
-TODO: expand on this
+Write a prototype for the feature above. The code does not need to be production-ready. Treat it as a proof of concept. Similarly, don't worry too much about documentation. Candidates who submit a working assignment will have an chance to go over their code with one of our engineers.
+
+Keep in mind that there are many aspects to web development. Spend your time in such a way that highlights your strengths - if you're a CSS wiz, wow us with your design skills. If you're a React expert, give us a nice UI. If you like coding on the back-end, build a feature with more complex business logic.
+
+The assignment is scoped to 3-4 hours. Please let us know how much time you ended up spending once completed.
+
+## Submission
+
+Zip the repository folder and send it over email back to the recruiter who sent you the assignment.
+
+**Note**: remember to srub the repository of any secrets, such as personal github tokens you may have used.
 
 ## Resources
 
